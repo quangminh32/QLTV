@@ -1,0 +1,22 @@
+F:\SGU\C#\lab9\QLThuvien\QLThuvien\bin\Debug\QLThuvien.exe.config
+F:\SGU\C#\lab9\QLThuvien\QLThuvien\bin\Debug\QLThuvien.exe
+F:\SGU\C#\lab9\QLThuvien\QLThuvien\bin\Debug\QLThuvien.pdb
+F:\SGU\C#\lab9\QLThuvien\QLThuvien\obj\Debug\QLThuvien.csproj.AssemblyReference.cache
+F:\SGU\C#\lab9\QLThuvien\QLThuvien\obj\Debug\QLThuvien.frmNhanvien.resources
+F:\SGU\C#\lab9\QLThuvien\QLThuvien\obj\Debug\QLThuvien.Properties.Resources.resources
+F:\SGU\C#\lab9\QLThuvien\QLThuvien\obj\Debug\QLThuvien.csproj.GenerateResource.cache
+F:\SGU\C#\lab9\QLThuvien\QLThuvien\obj\Debug\QLThuvien.csproj.CoreCompileInputs.cache
+F:\SGU\C#\lab9\QLThuvien\QLThuvien\obj\Debug\QLThuvien.exe
+F:\SGU\C#\lab9\QLThuvien\QLThuvien\obj\Debug\QLThuvien.pdb
+F:\SGU\C#\lab9\QLThuvien - 3 lop\QLThuvien\bin\Debug\QLThuvien.exe.config
+F:\SGU\C#\lab9\QLThuvien - 3 lop\QLThuvien\bin\Debug\QLThuvien.exe
+F:\SGU\C#\lab9\QLThuvien - 3 lop\QLThuvien\bin\Debug\QLThuvien.pdb
+F:\SGU\C#\lab9\QLThuvien - 3 lop\QLThuvien\obj\Debug\QLThuvien.csproj.AssemblyReference.cache
+F:\SGU\C#\lab9\QLThuvien - 3 lop\QLThuvien\obj\Debug\QLThuvien.Properties.Resources.resources
+F:\SGU\C#\lab9\QLThuvien - 3 lop\QLThuvien\obj\Debug\QLThuvien.csproj.GenerateResource.cache
+F:\SGU\C#\lab9\QLThuvien - 3 lop\QLThuvien\obj\Debug\QLThuvien.csproj.CoreCompileInputs.cache
+F:\SGU\C#\lab9\QLThuvien - 3 lop\QLThuvien\obj\Debug\QLThuvien.exe
+F:\SGU\C#\lab9\QLThuvien - 3 lop\QLThuvien\obj\Debug\QLThuvien.pdb
+F:\SGU\C#\lab9\QLThuvien - 3 lop\QLThuvien\obj\Debug\QLThuvienNTT.frmNhanvien.resources
+F:\SGU\C#\lab9\QLThuvien - 3 lop\QLThuvien\obj\Debug\QLThuvien.frmDocGia.resources
+F:\SGU\C#\lab9\QLThuvien - 3 lop\QLThuvien\obj\Debug\QLThuvien.frmMDI.resources
