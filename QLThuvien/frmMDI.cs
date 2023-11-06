@@ -135,5 +135,19 @@ namespace QLThuvien
             if (dr == DialogResult.No)
                 e.Cancel = true;
         }
+
+        private void btnChoMuonSach_Click(object sender, EventArgs e)
+        {
+            frmChoMuonSach frm = new frmChoMuonSach();
+            frm.MdiParent = this;
+            frm.Show();
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            frmThongKeDocGia frm = new frmThongKeDocGia();
+            frm.MdiParent = this;
+            frm.Show();
+        }
     }
 }

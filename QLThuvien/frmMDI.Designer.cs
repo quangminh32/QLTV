@@ -203,7 +203,7 @@
             // 
             this.statusStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripStatusLabel});
-            this.statusStrip.Location = new System.Drawing.Point(0, 563);
+            this.statusStrip.Location = new System.Drawing.Point(0, 675);
             this.statusStrip.Name = "statusStrip";
             this.statusStrip.Size = new System.Drawing.Size(1295, 22);
             this.statusStrip.TabIndex = 2;
@@ -223,7 +223,7 @@
             this.panelMenu.Dock = System.Windows.Forms.DockStyle.Left;
             this.panelMenu.Location = new System.Drawing.Point(0, 49);
             this.panelMenu.Name = "panelMenu";
-            this.panelMenu.Size = new System.Drawing.Size(215, 514);
+            this.panelMenu.Size = new System.Drawing.Size(215, 626);
             this.panelMenu.TabIndex = 4;
             // 
             // groupBox3
@@ -254,6 +254,7 @@
             this.button6.TabIndex = 0;
             this.button6.Text = "Độc giả trả tiền phạt";
             this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // groupBox2
             // 
@@ -286,6 +287,7 @@
             this.btnChoMuonSach.TabIndex = 3;
             this.btnChoMuonSach.Text = "Cho mượn sách";
             this.btnChoMuonSach.UseVisualStyleBackColor = true;
+            this.btnChoMuonSach.Click += new System.EventHandler(this.btnChoMuonSach_Click);
             // 
             // btnTiepNhanSachMoi
             // 
@@ -349,7 +351,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1295, 585);
+            this.ClientSize = new System.Drawing.Size(1295, 697);
             this.Controls.Add(this.panelMenu);
             this.Controls.Add(this.statusStrip);
             this.Controls.Add(this.toolStrip);

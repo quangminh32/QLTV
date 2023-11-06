@@ -33,8 +33,14 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -46,13 +52,43 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ChiTietPhieuMuon.cs" />
+    <Compile Include="CrystalReport2.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrystalReport2.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="Database.cs" />
     <Compile Include="Docgia.cs" />
+    <Compile Include="dsThuVien.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsThuVien.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="frmChiTietPhieuMuon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmChiTietPhieuMuon.Designer.cs">
+      <DependentUpon>frmChiTietPhieuMuon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmChoMuonSach.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmChoMuonSach.Designer.cs">
+      <DependentUpon>frmChoMuonSach.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmDocGia.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmDocGia.Designer.cs">
       <DependentUpon>frmDocGia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDocGiaNoTien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDocGiaNoTien.Designer.cs">
+      <DependentUpon>frmDocGiaNoTien.cs</DependentUpon>
     </Compile>
     <Compile Include="frmNhanvien.cs">
       <SubType>Form</SubType>
@@ -66,17 +102,41 @@
     <Compile Include="frmMDI.Designer.cs">
       <DependentUpon>frmMDI.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmThongKeDocGia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmThongKeDocGia.Designer.cs">
+      <DependentUpon>frmThongKeDocGia.cs</DependentUpon>
+    </Compile>
     <Compile Include="Nhanvien.cs" />
+    <Compile Include="PhieuMuon.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sach.cs" />
+    <EmbeddedResource Include="CrystalReport2.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrystalReport2.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmChiTietPhieuMuon.resx">
+      <DependentUpon>frmChiTietPhieuMuon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmChoMuonSach.resx">
+      <DependentUpon>frmChoMuonSach.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmDocGia.resx">
       <DependentUpon>frmDocGia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDocGiaNoTien.resx">
+      <DependentUpon>frmDocGiaNoTien.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmNhanvien.resx">
       <DependentUpon>frmNhanvien.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmMDI.resx">
       <DependentUpon>frmMDI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmThongKeDocGia.resx">
+      <DependentUpon>frmThongKeDocGia.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -87,6 +147,17 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="dsThuVien.xsc">
+      <DependentUpon>dsThuVien.xsd</DependentUpon>
+    </None>
+    <None Include="dsThuVien.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsThuVien.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsThuVien.xss">
+      <DependentUpon>dsThuVien.xsd</DependentUpon>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -99,6 +170,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
